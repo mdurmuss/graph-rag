@@ -1,6 +1,7 @@
 # Graph-Based Modeling and Information Extraction on Health Data
 
 This project demonstrates how to perform graph-based modeling and information extraction from a Neo4j database using Large Language Models (LLMs) via LangChain. The focus is on querying health data stored in a Neo4j graph database and utilizing LLMs for question answering (QA).
+
 ![image](model.png)
 ---
 
