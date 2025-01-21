@@ -1,0 +1,30 @@
+NODES:
+1. Person
+    - Name
+    - Age
+    - Gender
+    - Blood Type
+2. Medical Condition
+    - Name
+3. Doctor
+    - Name
+4. Hospital
+    - Name
+5. Insurance Provider
+    - name
+6. Medication
+    - Name
+EDGES:
+-------------
+Person - Medical Condition: HAS_CONDITION
+Person - Doctor: TREATED_BY
+Person - Hospital: ADMITTED_TO
+   - Properties:
+        - Date of Admission
+        - Discharge Date
+        - Billing Amount
+        - Room Number
+        - Admission Type
+        - Test Results
+Person - Insurance Provider: INSURED_BY
+Person - Medication: TAKES
